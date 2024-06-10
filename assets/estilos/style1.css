@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+
+
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+    box-shadow: -4px -4px 4px rgb(243, 240, 240), 4px 4px 4px rgb(241, 241, 241);
+    border-radius: 200px;
+}
+
+.filtro {
+    display: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(3, 3, 3);
+}
+
+input[type="text"] {
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 700px;
+    height: 70px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+nav {
+    margin-right: 6.25em;
+}
+
+#top {
+    display: none;
+
+}
+
+#top:checked~ul li {
+    display: block;
+    margin-bottom: 0.25em;
+}
+
+
+header label {
+    display: flex;
+    justify-content: end;
+    margin-top: 0.625em;
+    font-size: 2.5em;
+    color: white;
+}
+
+.menu a:link,
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ul li {
+
+    display: none;
+    color: black;
+    text-decoration: none;
+    padding: 2.5em;
+    background-color: #f0a606f8;
+
+    font-size: 1.0625em;
+}
+
+ul li:hover {
+    background-color: rgb(231, 88, 88);
+}
+
+.fondo {
+
+    width: 100%;
+
+
+}
+
+.toping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info {
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.info:hover {
+    background-color: rgb(243, 160, 7);
+}
+
+.imagen_receta {
+    width: 350px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+
+.receta {
+    margin: 50px;
+    width: 500px;
+    height: 420px;
+    background-color: black;
+    border-radius: 50px;
+
+}
+
+.title_recet {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px;
+    color: white;
+}
+
+.text_receta {
+    color: white;
+    padding: 20px 50px;
+}
+
+.ver_receta {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.ver_receta:hover {
+    background-color: rgb(243, 160, 7);
+}
+
+.recets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+.footer-content {
+    background-size: cover;
+    padding-top: 3.125em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content div {
+    color: aliceblue;
+    padding: 1.875em;
+}
+
+.footer-content h3 {
+    padding-left: 0.9375em;
+    margin-top: 40px;
+}
+
+.footer-content i {
+    font-size: 30px;
+}
+
+.footer-content p {
+    padding-top: 1.875em;
+}
+
+
+.fa-solid {
+    margin-right: 1.25em;
+    font-size: 1.25em;
+    margin-top: 0.5625em;
+}

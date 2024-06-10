@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/estilos/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <img class="logo" src="assets/img/logo.PNG" alt="">
+            <nav>
+                <input type="checkbox" id="top">
+                <label for="top">Menu</label>
+                <ul>
+
+                    <li><a href="index.html">inicio</a></li>
+
+                    <li><a href="index.html">Registrar usuario</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <input type="checkbox" id="uno" onclick="registrar()">
+
+
+    <div class="cuerpo">
+
+        <div class="registro">
+            <center>
+                <img src="assets/img/registro.png" alt="">
+                <i class="fa-solid fa-id-card"></i><input type="text" id="name" placeholder=" Nombres"><br>
+                <i class="fa-solid fa-id-card"></i><input type="text" placeholder="Apellidos"><br>
+                <i class="fa-solid fa-envelope"></i> <input type="text" id="correo"
+                    placeholder="Correo electronico"><br>
+                <i class="fa-solid fa-key"></i><input type="password" id="contra" placeholder="Contraseña"><br>
+
+                <i class="fa-solid fa-calendar"></i><input class="date" type="text" placeholder="Año">
+                <i class="fa-solid fa-calendar"></i><input class="date" type="text" placeholder="Mes">
+                <i class="fa-solid fa-calendar"></i><input class="date" type="text" placeholder="Dia"><br>
+                <button><label for="uno">REGISTRAR</label></button>
+            </center>
+
+
+        </div>
+
+    </div>
+
+    <input type="checkbox" id="dos" onclick="iniciar()">
+    <div class="cuerpo2">
+
+        <div class="registro2">
+            <center>
+                <img src="assets/img/registro.png" alt="">
+
+                <i class="fa-solid fa-envelope"></i> <input type="text" id='correo1'
+                    placeholder="Correo electronico"><br>
+                <i class="fa-solid fa-key"></i><input type="password" id="contra1" placeholder="Contraseña"><br>
+
+                <button><label for="dos">INICIAR</label></button>
+            </center>
+
+
+        </div>
+
+    </div>
+    <script src="assets/java/java.js"></script>
+</body>
+
+</html>
